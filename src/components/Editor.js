@@ -17,9 +17,7 @@ export default function Editor({ currentNote, updateNote}) {
 
     return (
         <section className="pane editor "  >
-            <div>
-                col
-            </div>
+       
             <ReactMde
                 value={currentNote.body}
                 onChange={updateNote}
